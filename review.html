@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container">
+
+   
+        <div class="card">
+          <img class="card-img opacity-75" id="img2" src="Background image.jpg" alt="an old map of New York">
+          <div class="card-img-overlay">
+            <div class="row">
+              <div class="col-sm-1"></div>
+              <div class="col-sm-8">
+            <h1 class="card-title text-dark">Jakub's Jaunts</h1>
+            <p class="card-text fw-bold fs-4">Walk the history of New York, through informative, thought provoking and comprehensive tours</p>
+          </div>
+          <div class="col-sm-3">
+            </div>
+            </div>
+            </div>
+            </div>
+    <h1>Review Log </h1>
+    <p>Having trouble deciding what program to go on? Check out or reviews below. Want to leave your thoughts? Don't hesitate to submit your own comments.</p>
+<div>
+    <table class="table table-dark table-striped" id="list">
+        <tr>
+            <th>Name</th>
+            <th>Hometown</th>
+            <th>Name of Tour</th>
+            <th>Date of Tour</th>
+            <th>Comments</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+</div>
+
+
+
+    <div class="row">
+        <div class="col-sm">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name">
+    </div>
+</div>
+<div class="col-sm">
+<div class="form-group">
+        <label for="hometown">Hometown</label> </label>
+        <input type="text" class="form-control" id="hometown">
+    </div>
+</div>
+</div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="tourName">Name of Tour</label>
+                <input type="text" class="form-control" id="tourName">
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="tourDate">Date of Tour</label>
+                <input type="date" class="form-control" id="tourDate">
+            </div>
+        </div>
+       </div>
+<div class="row">
+    <div class="col-sm">
+        <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea class="form-control" id="comments"  rows="3"></textarea>
+        </div>
+
+        </div>
+       
+        <div class="col-sm align-self-center row justify-content-center">
+            <button type="button"  class="btn btn-secondary btn-lg form-control" id="submit">Submit</button>
+            
+       
+    </div>
+    </div>
+   
+    </div>
+      
+       
+</div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="review.js"></script>    
+</body>
+</html>
