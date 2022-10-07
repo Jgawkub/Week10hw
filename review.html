@@ -36,7 +36,8 @@
             <th>Name of Tour</th>
             <th>Date of Tour</th>
             <th>Comments</th>
-            <th>Actions</th>
+            <th>Remove</th>
+            <th>Edit</th>
         </tr>
     </table>
 </div>
@@ -58,11 +59,14 @@
 </div>
 </div>
     <div class="row">
-        <div class="col-sm">
-            <div class="form-group">
-                <label for="tourName">Name of Tour</label>
-                <input type="text" class="form-control" id="tourName">
-            </div>
+        <div class="col-sm ">
+            <label for="tourName">Tour Name</label>
+            <select class="form-select" id="tourName">
+              <option selected>Choose...</option>
+              <option>Hell's Kitchen</option>
+              <option>Lower East Side</option>
+              <option>Governor's Island</option>
+            </select>
         </div>
         <div class="col-sm">
             <div class="form-group">
@@ -91,8 +95,12 @@
       
        
 </div>
+
+
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <script src="review.js"></script>    
 </body>
 </html>
+
+
